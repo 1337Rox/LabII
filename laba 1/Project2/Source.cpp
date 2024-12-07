@@ -1,16 +1,17 @@
+#Edit From Github
 #include <iostream>
 #include <iomanip>
 using namespace std;
 int main() {
-	//Ввод
+	//Г‚ГўГ®Г¤
 	int price, disc;
 	cout << "Price: ";
 	cin >> price;
 	cout << "Discount: ";
 	cin >> disc;
-	// Вычисление стоимости со скидкой
+	// Г‚Г»Г·ГЁГ±Г«ГҐГ­ГЁГҐ Г±ГІГ®ГЁГ¬Г®Г±ГІГЁ Г±Г® Г±ГЄГЁГ¤ГЄГ®Г©
 	double discprice = price * (1 - disc / 100.0);
-	// Вывод результата с точностью до двух знаков
+	// Г‚Г»ГўГ®Г¤ Г°ГҐГ§ГіГ«ГјГІГ ГІГ  Г± ГІГ®Г·Г­Г®Г±ГІГјГѕ Г¤Г® Г¤ГўГіГµ Г§Г­Г ГЄГ®Гў
 	cout << "A product priced at " << price << " with a " << disc << " precent discount will cost "
 		<< fixed << setprecision(2) << discprice << endl;
 	return 0;
@@ -25,7 +26,7 @@ int main() {
 //	int hun = (num / 100) % 10;
 //	int tens = (num / 10) % 10;
 //	int ones = num % 10;
-//	// Используем разницу
+//	// Г€Г±ГЇГ®Г«ГјГ§ГіГҐГ¬ Г°Г Г§Г­ГЁГ¶Гі
 //	int res = (th - ones) * (th - ones) + (hun - tens) * (hun - tens);
 //	cout << res;
 //	return 0;
