@@ -1,5 +1,7 @@
 //Edit From Github and edit from VSC
 //add comm for ver 1.0
+// Случайны комментарий от соавтора*
+// мне не понравилось :с
 #include <iostream>
 #include <iomanip>
 using namespace std;
