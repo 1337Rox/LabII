@@ -1,0 +1,16 @@
+﻿################################################################################
+# Данный GITIGNORE-файл был автоматически создан Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/LabII/FileContentIndex
+/.vs/LabII/v17
+/laba 1/.vs/laba 1/FileContentIndex
+/laba 1/.vs/laba 1/v17/ipch/AutoPCH
+/laba 1/.vs/laba 1/v17
+/laba 1/Project2/x64/Debug/Project2.tlog
+/laba 1/Project2/x64/Debug
+/laba 1/x64/Debug
+/.vs
+/laba 1/Project2/Project2.vcxproj
+/laba 1/Project2/Project2.vcxproj.filters
+/laba 1/Project2/Project2.vcxproj.user
